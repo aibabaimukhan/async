@@ -1,0 +1,121 @@
+1. Базовая подготовка (0–2 недели)
+Что нужно:
+  Основы программирования (если нет опыта):
+  переменные, типы данных
+  циклы, функции
+  ООП: классы, объекты, наследование
+
+Ресурсы:
+  Dart Tour (официально)
+  YouTube: быстрый курс по Dart
+
+2. Dart для Flutter (1–3 недели)
+Изучить:
+  Null-safety
+  async/await
+  Future, Stream
+  extensions
+  mixins
+  Generics
+  Collections (List/Map/Set)
+
+Мини-проекты:
+  Консольный ToDo
+  Парсер JSON из файла
+  Асинхронный таймер
+
+3. Основы Flutter (3–6 недель)
+Изучить:
+  Архитектура Flutter
+
+Widgets:
+  StatelessWidget
+  StatefulWidget
+  Material и Cupertino
+
+Layout:
+  Row, Column
+  Stack
+  Flex
+  Expanded / Flexible
+
+Навигация:
+  Navigator 1.0
+  routes
+
+Мини-проекты:
+  Калькулятор
+  Список заметок (без сохранения)
+  Простое приложение с 3–4 экранами
+
+4. Работа с данными (1–2 месяца)
+Изучить:
+  HTTP (dio, http)
+  JSON serialization
+  Интерфейсы / репозитории
+  Кэширование
+  Работа с локальным хранилищем:
+  SharedPreferences
+  Hive
+  SQLite (drift)
+  Мини-проекты:
+  Приложение с API (погода, книги, фильмы)
+  Чат-интерфейс (без backend)
+
+5. Состояние (state management) (1–2 месяца)
+
+Выбери один, но желательно знать 2:
+Обязательные:
+  Provider
+  Riverpod (новый стандарт)
+
+Дополнительно:
+  Bloc / Cubit
+  GetX
+  MobX
+
+6. Продвинутый Flutter (1–2 месяца)
+Изучить:
+Navigator 2.0 / go_router / auto_route
+
+Анимации:
+  Implicit
+  Explicit (AnimationController, Tween)
+  CustomPaint
+  Responsive layout
+  Theme / Dark mode
+
+7. Архитектура проекта
+Чистая архитектура (Clean Architecture)
+
+SOLID в Flutter
+MVC / MVVM / MVI
+Domain / Data / Presentation слои
+DI (get_it, riverpod, kiwi)
+
+8. Интеграции и практические навыки
+
+Firebase:
+  Auth
+  Firestore
+  Storage
+  Analytics
+  Push-уведомления
+  Работа с камерой
+  Карты (Google Maps / Yandex MapKit)
+  In-app purchases
+
+9. Деплой
+  Сборка под Android/iOS
+  Подготовка к Google Play / AppStore
+  certificates, keystore
+  Fastlane (по желанию)
+
+10. Портфолио
+  Мини-проекты для уровня Junior:
+  ToDo + Hive
+  Приложение с публичным API
+  Чат (Firebase)
+  Магазин (корзина + авторизация)
+
+Клон TikTok/Instagram (с базовой функциональностью)
