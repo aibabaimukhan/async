@@ -1,0 +1,42 @@
+Краткая схема изучения Flutter (по шагам)
+1. Dart (1–2 недели)
+  Основы: переменные, функции, классы
+  Future / async-await
+  Коллекции, null-safety
+
+2. Основы Flutter (2–4 недели)
+  Stateless / Stateful Widgets
+  Основные виджеты (Row, Column, ListView)
+  Навигация (Navigator)
+  Материальные компоненты (Material UI)
+
+3. Работа с данными (3–5 недель)
+  HTTP-запросы (dio/http)
+  JSON
+  Локальное хранилище: SharedPreferences / Hive
+  Работа с API
+
+4. State Management (3–6 недель)
+  Provider или Riverpod (рекомендуется)
+  Понимание потоков данных и состояний
+
+5. Продвинутые темы (1–2 месяца)
+  Анимации
+  go_router / auto_route
+  Responsive layout
+  Clean Architecture (минимум базовые принципы)
+
+6. Интеграции
+  Firebase (Auth, Firestore)
+  Push-уведомления
+  Доступ к камере, файлам и т. д.
+
+7. Деплой
+  Сборка и публикация на Android / iOS
+  Keystore / сертификаты
+
+✔ Что в итоге тебе нужно сделать?
+3–4 проекта в портфолио
+1 приложение с API
+1 приложение с локальным хранилищем
+1 сложный проект с авторизацией и навигацией
