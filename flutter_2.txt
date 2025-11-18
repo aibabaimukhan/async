@@ -1,42 +1,101 @@
-Краткая схема изучения Flutter (по шагам)
-1. Dart (1–2 недели)
-  Основы: переменные, функции, классы
-  Future / async-await
-  Коллекции, null-safety
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Краткая схема изучения Flutter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #0175C2;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #01579B;
+            margin-top: 25px;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Краткая схема изучения Flutter</h1>
 
-2. Основы Flutter (2–4 недели)
-  Stateless / Stateful Widgets
-  Основные виджеты (Row, Column, ListView)
-  Навигация (Navigator)
-  Материальные компоненты (Material UI)
+        <h2>1. Dart (1–2 недели)</h2>
+        <ul>
+            <li>Основы: переменные, функции, классы</li>
+            <li>Future / async-await</li>
+            <li>Коллекции, null-safety</li>
+        </ul>
 
-3. Работа с данными (3–5 недель)
-  HTTP-запросы (dio/http)
-  JSON
-  Локальное хранилище: SharedPreferences / Hive
-  Работа с API
+        <h2>2. Основы Flutter (2–4 недели)</h2>
+        <ul>
+            <li>Stateless и Stateful Widgets</li>
+            <li>Основные виджеты (Row, Column, ListView)</li>
+            <li>Навигация (Navigator)</li>
+            <li>Material UI компоненты</li>
+        </ul>
 
-4. State Management (3–6 недель)
-  Provider или Riverpod (рекомендуется)
-  Понимание потоков данных и состояний
+        <h2>3. Работа с данными (3–5 недель)</h2>
+        <ul>
+            <li>HTTP-запросы (dio/http)</li>
+            <li>JSON</li>
+            <li>Локальное хранилище: SharedPreferences, Hive</li>
+            <li>Работа с API</li>
+        </ul>
 
-5. Продвинутые темы (1–2 месяца)
-  Анимации
-  go_router / auto_route
-  Responsive layout
-  Clean Architecture (минимум базовые принципы)
+        <h2>4. State Management (3–6 недель)</h2>
+        <ul>
+            <li>Provider или Riverpod</li>
+            <li>Понимание потоков данных и состояний</li>
+        </ul>
 
-6. Интеграции
-  Firebase (Auth, Firestore)
-  Push-уведомления
-  Доступ к камере, файлам и т. д.
+        <h2>5. Продвинутые темы (1–2 месяца)</h2>
+        <ul>
+            <li>Анимации</li>
+            <li>go_router / auto_route</li>
+            <li>Responsive layout</li>
+            <li>Clean Architecture (минимум основы)</li>
+        </ul>
 
-7. Деплой
-  Сборка и публикация на Android / iOS
-  Keystore / сертификаты
+        <h2>6. Интеграции</h2>
+        <ul>
+            <li>Firebase (Auth, Firestore)</li>
+            <li>Push-уведомления</li>
+            <li>Работа с камерой, файлами и разрешениями</li>
+        </ul>
 
-✔ Что в итоге тебе нужно сделать?
-3–4 проекта в портфолио
-1 приложение с API
-1 приложение с локальным хранилищем
-1 сложный проект с авторизацией и навигацией
+        <h2>7. Деплой</h2>
+        <ul>
+            <li>Сборка Android / iOS</li>
+            <li>Keystore и сертификаты</li>
+        </ul>
+
+        <div class="footer">
+            Готово! Ты можешь редактировать и расширять эту страницу под свои нужды.
+        </div>
+    </div>
+</body>
+</html>
